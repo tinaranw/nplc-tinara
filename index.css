@@ -1,0 +1,102 @@
+html {
+	overflow-x:hidden;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	color:#6d1616;
+
+}
+.menu h1{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:30px;
+	letter-spacing:2px;
+	text-decoration: none;
+}
+h1 {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight:700;
+	font-size:50px;
+	letter-spacing:2px;
+}
+h4 {
+	font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	font-size:20px;
+	letter-spacing:2px;
+}
+p {
+	font-family: 'Oswald', sans-serif;
+	font-weight:200;
+	font-size:20px;
+	line-height: 1.5;
+	letter-spacing: 1.4px;
+}
+.menu {
+	max-width: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding:10px;
+    margin: 0 auto;
+    text-align:center;
+    background-color: #fff;
+    height:100%;
+
+}
+.menu.deactive{
+	display:none;
+}
+.menu.active {
+	display:block;
+}
+.menu a {
+	margin: 10px 30px;
+	font-size: 20px;
+	color: #000;
+}
+.menu-button {
+	position:fixed;
+	z-index:100;
+	width:50px;
+	height:50px;
+}
+
+.menu-button i {
+	font-size: 40px;
+	padding:10px;
+	font-color: rgba(255,255,255,0.8);
+}
+
+.register-button {
+	background-color: #eee;
+	font-size:20px;
+	border-radius: 10px;
+	padding:10px 15px;
+	width: 200px;
+}
+
+.card h4, .card p {
+	color: #fff;
+}
+
+.category {
+	text-align:center;
+}
+.container img{
+	height: 100%;
+	width: 100%;
+}
+.regis-space {
+	margin-left: 50px !important;
+	margin-bottom:50px;
+}
+
+.card {
+	background-color: #381b1b;
+	height:auto;
+	padding:20px;
+	border-radius: 10px;
+}
